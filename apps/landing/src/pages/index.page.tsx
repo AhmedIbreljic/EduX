@@ -78,7 +78,7 @@ function Page() {
 			}
 		})();
 	}, []);
-lol
+
 	return (
 		<div className="flex flex-col items-center w-full px-4">
 			<Helmet>
