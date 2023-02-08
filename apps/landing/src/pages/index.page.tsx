@@ -82,7 +82,7 @@ function Page() {
 	return (
 		<div className="flex flex-col items-center w-full px-4">
 			<Helmet>
-				<title>EduX — Personalized Academic Scheduling using AI.</title>
+				<title>EduX — Personalized Academic Scheduling using AI. Ur fricking Gay</title>
 				<meta
 					name="description"
 					content="Personalize and schedule your classes into one database that you can explore from any device. Designed for advisors, undergraduate students and high school students."
