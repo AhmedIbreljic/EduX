@@ -29,9 +29,9 @@ export function Footer() {
 				<div className="col-span-2">
 					<img src={AppLogo} className="w-10 h-10 mb-5" />
 
-					<h3 className="mb-1 text-xl font-bold">Spacedrive</h3>
+					<h3 className="mb-1 text-xl font-bold">EduX</h3>
 					<p className="text-sm text-gray-350">
-						&copy; Copyright {new Date().getFullYear()} Spacedrive Technology Inc.
+						&copy; Copyright {new Date().getFullYear()} EduX Technology Inc.
 					</p>
 					<div className="flex flex-row mt-6 mb-10 space-x-3">
 						<FooterLink link="https://twitter.com/spacedriveapp">
@@ -67,9 +67,8 @@ export function Footer() {
 				<div className="flex flex-col col-span-1 space-y-2 pointer-events-none">
 					<h3 className="mb-1 text-xs font-bold uppercase">Downloads</h3>
 					<div className="flex flex-col col-span-1 space-y-2 opacity-50">
-						<FooterLink link="#">macOS</FooterLink>
-						<FooterLink link="#">Windows</FooterLink>
-						<FooterLink link="#">Linux</FooterLink>
+						<FooterLink link="#">iOS</FooterLink>
+						<FooterLink link="#">Android</FooterLink>
 					</div>
 				</div>
 				<div className="flex flex-col col-span-1 space-y-2">

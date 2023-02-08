@@ -20,7 +20,7 @@ function Page({ doc, navigation, nextDoc }: SingleDocResponse) {
 	return (
 		<>
 			<Helmet>
-				<title>{doc?.title} - Spacedrive Documentation</title>
+				<title>{doc?.title} - EduX Documentation</title>
 				{/* <meta name="description" content={description} />
 				<meta property="og:title" content={post?.title} />
 				<meta property="og:description" content={description} />

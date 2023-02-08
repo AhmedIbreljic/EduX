@@ -120,14 +120,14 @@ function Page() {
 	return (
 		<>
 			<Helmet>
-				<title>Roadmap - Spacedrive</title>
-				<meta name="description" content="What can Spacedrive do?" />
+				<title>Roadmap - EduX</title>
+				<meta name="description" content="What can EduX do?" />
 			</Helmet>
 			<div className="container flex flex-col max-w-4xl gap-20 p-4 pt-32 m-auto mb-20 prose lg:prose-xs dark:prose-invert">
 				<section className="flex flex-col items-center">
 					<img className="w-24 pointer-events-none" />
 					<h1 className="mb-0 text-5xl leading-snug text-center fade-in-heading">
-						What's next for Spacedrive?
+						What's next for EduX?
 					</h1>
 					<p className="text-center text-gray-400 animation-delay-2 fade-in-heading">
 						Here is a list of the features we are working on, and the progress we have made so far.

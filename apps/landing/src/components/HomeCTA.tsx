@@ -92,13 +92,13 @@ export function HomeCTA() {
 							Join Waitlist
 						</Button>
 						<Button
-							href="https://github.com/spacedriveapp/spacedrive"
+							href="https://demo.mage.ai/pipelines"
 							target="_blank"
 							className="z-30 cursor-pointer"
 							variant="accent"
 						>
-							<Github className="inline w-5 h-5 -mt-[4px] -ml-1 mr-2" fill="white" />
-							Star on GitHub
+							{/* <Github className="inline w-5 h-5 -mt-[4px] -ml-1 mr-2" fill="white" /> */}
+							Beta Release
 						</Button>
 					</>
 				) : (
@@ -184,9 +184,9 @@ export function HomeCTA() {
 					</>
 				) : (
 					<>
-						Coming soon on macOS, Windows and Linux.
+						Available via our website across any device.
 						<br />
-						Shortly after to iOS & Android.
+						Coming soon on iOS and Android.
 					</>
 				)}
 			</p>

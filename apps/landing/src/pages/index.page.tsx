@@ -56,7 +56,7 @@ function Page() {
 
 		(async () => {
 			const prod = import.meta.env.PROD;
-			const url = prod ? 'https://waitlist-api.spacedrive.com' : 'http://localhost:3000';
+			const url = prod ? 'https://waitlist-api.edux.ai' : 'http://localhost:3000';
 
 			const req = await fetch(`${url}/api/waitlist?i=${cuid}`, {
 				method: 'DELETE'
@@ -82,10 +82,10 @@ function Page() {
 	return (
 		<div className="flex flex-col items-center w-full px-4">
 			<Helmet>
-				<title>Spacedrive — A file manager from the future.</title>
+				<title>EduX — Personalized Academic Scheduling using AI.</title>
 				<meta
 					name="description"
-					content="Combine your drives and clouds into one database that you can organize and explore from any device. Designed for creators, hoarders and the painfully disorganized."
+					content="Personalize and schedule your classes into one database that you can explore from any device. Designed for advisors, undergraduate students and high school students."
 				/>
 				<meta
 					property="og:image"
@@ -95,12 +95,12 @@ function Page() {
 					name="keywords"
 					content="files,file manager,spacedrive,file explorer,vdfs,distributed filesystem,cas,content addressable storage,virtual filesystem,photos app, video organizer,video encoder,tags,tag based filesystem"
 				/>
-				<meta name="author" content="Spacedrive Technology Inc." />
+				<meta name="author" content="EduX Technology Inc." />
 			</Helmet>
 			<div className="mt-22 lg:mt-28" id="content" aria-hidden="true" />
 			<div className="mt-24 lg:mt-5" />
 			<NewBanner
-				headline="Spacedrive raises $2M led by OSS Capital"
+				headline="EduX raises $1.15M led by ISS Capital"
 				href="/blog/spacedrive-funding-announcement"
 				link="Read post"
 			/>
@@ -116,27 +116,26 @@ function Page() {
 			)}
 
 			<h1 className="z-30 px-2 mb-3 text-4xl font-black leading-tight text-center text-white fade-in-heading md:text-6xl">
-				A file explorer from the future.
+				Higher Education Scheduling
 			</h1>
 			<p className="z-30 max-w-4xl mt-1 mb-8 text-center animation-delay-1 fade-in-heading text-md lg:text-lg leading-2 lg:leading-8 text-gray-450">
-				Combine your drives and clouds into one database that you can organize and explore from any
-				device.
+				Personalize and schedule your classes in one platform that you can explore from any device.
 				<br />
 				<span className="hidden sm:block">
-					Designed for creators, hoarders and the painfully disorganized.
+					Designed for advisors, undergraduate students, and high school students.
 				</span>
 			</p>
 			<HomeCTA />
 			<AppEmbed />
 			<Section
 				orientation="right"
-				heading="Never leave a file behind."
+				heading="Never leave a class behind."
 				className="z-30 mt-0 sm:mt-8"
 				description={
 					<>
-						Spacedrive accounts for every file you own, uniquely fingerprinting and extracting
-						metadata so you can sort, tag, backup and share files without limitations of any one
-						cloud provider.
+						EduX accounts for every class you must take, uniquely organizing and sorting your
+						academic metadata so you can schedule classes without limitations or problems from
+						advising departments.
 						<br />
 						<br />
 						<a
