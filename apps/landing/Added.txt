@@ -1,0 +1,2 @@
+I added a new Data Folder which is the Json of all the Professors and Majors. With all the 
+Rate my Professors
